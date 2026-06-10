@@ -20,4 +20,6 @@ import herpain.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',herpain.views.index),
+    path('html/',herpain.views.renderer),
+    path('search/',herpain.views.searcher),
 ]
